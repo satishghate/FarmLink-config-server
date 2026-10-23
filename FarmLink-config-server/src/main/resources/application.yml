@@ -11,3 +11,6 @@ spring:
         git:
           uri: https://github.com/satishghate/FarmLink-config-repo.git
           default-label: main
+          username: ${GITHUB_USERNAME}
+          password: ${GITHUB_TOKEN}
+          clone-on-start: true
